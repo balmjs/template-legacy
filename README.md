@@ -1,6 +1,6 @@
 # BalmJS template - legacy
 
-> A legacy project for IE
+> A jQuery project for IE
 
 ## Installation
 

@@ -13,9 +13,12 @@ balm.config = {
   scripts: {
     entry: './app/scripts/index.js',
     alias: {
-      '@': path.resolve(__dirname, '../app/scripts')
+      '@': path.resolve(__dirname, 'app/scripts')
     },
     ie8: true
+  },
+  logs: {
+    level: 2
   }
   // More Config
 };

@@ -1,4 +1,4 @@
-import './polyfill';
+import '@/polyfill';
 import $ from 'jquery';
 window.jQuery = $;
 import('jquery-migrate');
