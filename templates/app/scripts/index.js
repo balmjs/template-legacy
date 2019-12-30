@@ -1,7 +1,6 @@
 import '@/polyfill';
-import $ from 'jquery';
-window.jQuery = $;
-import('jquery-migrate');
+import 'jq';
+import 'jquery-migrate';
 
 $(() => {
   console.log('jQuery', $);

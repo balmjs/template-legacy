@@ -13,8 +13,15 @@ balm.config = {
   scripts: {
     entry: './app/scripts/index.js',
     alias: {
-      '@': path.resolve(__dirname, 'app/scripts')
+      '@': path.resolve(__dirname, 'app/scripts'),
+      jq: path.resolve(__dirname, 'app/scripts/jquery.js')
     },
+    // NOTE: for no AMD/CommonJS version of the legacy vendor modules
+    // webpackOptions: {
+    //   module: {
+    //     noParse: []
+    //   }
+    // }
     ie8: true
   },
   logs: {
