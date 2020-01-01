@@ -1,6 +1,6 @@
 # BalmJS template - legacy
 
-> A jQuery project for IE
+> A jQuery@1.x project for older browsers like Internet Explorer 6-8, Opera 12.1x or Safari 5.1+
 
 ## Installation
 
