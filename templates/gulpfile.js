@@ -11,17 +11,13 @@ balm.config = {
     extname: 'css' // Default use PostCSS
   },
   scripts: {
-    entry: './app/scripts/index.js',
-    alias: {
-      '@': path.resolve(__dirname, 'app/scripts'),
-      jq: path.resolve(__dirname, 'app/scripts/jquery.js')
+    entry: {
+      polyfill: './app/scripts/polyfill.js',
+      main: './app/scripts/index.js'
     },
-    // NOTE: for no AMD/CommonJS version of the legacy vendor modules
-    // webpackOptions: {
-    //   module: {
-    //     noParse: []
-    //   }
-    // }
+    alias: {
+      '@': path.resolve(__dirname, 'app/scripts')
+    },
     ie8: true
   },
   logs: {
