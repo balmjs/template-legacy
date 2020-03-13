@@ -1,4 +1,4 @@
-# BalmJS template - legacy
+# BalmJS template - `legacy`
 
 > A jQuery project for older browsers like Internet Explorer 6-8, Opera 12.1x or Safari 5.1+
 
@@ -24,4 +24,4 @@ npm run dev
 npm run prod
 ```
 
-> thx [BalmJS](https://balmjs.com/)
+- thx [BalmJS](https://balmjs.com/)
