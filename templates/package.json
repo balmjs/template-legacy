@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "jquery": ">=1.12.0 <2",
+    "jquery": ">=1.12 <2",
     "jquery-migrate": "^1.4.1"
   },
   "devDependencies": {
