@@ -8,15 +8,15 @@
     "prod": "gulp -S -p"
   },
   "dependencies": {
-    "@babel/runtime-corejs3": "^7.9.6",
     "core-js": "^3.6.5",
     "jquery": ">=1.9.0 <2",
     "jquery-migrate": "^1.4.1"
   },
   "devDependencies": {
+    "@babel/runtime-corejs3": "^7.10.0",
     "babel-eslint": "^10.1.0",
-    "balm": "^2.13.2",
-    "eslint": "^7.0.0",
+    "balm": "^2.22.0",
+    "eslint": "^7.5.0",
     "gulp": "^4.0.2"
   },
   "private": true
