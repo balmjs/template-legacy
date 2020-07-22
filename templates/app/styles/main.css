@@ -28,11 +28,13 @@ a {
 
 .logo {
   font-size: 96px;
+
   & a,
   & img,
   & span {
     vertical-align: middle;
   }
+
   & img {
     width: 100px;
     height: 100px;
