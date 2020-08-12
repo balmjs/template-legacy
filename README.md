@@ -2,10 +2,26 @@
 
 > A jQuery project for older browsers like Internet Explorer 6-8, Opera 12.1x or Safari 5.1+
 
+## Requirements
+
+```sh
+yarn global add balm-core balm-cli
+# OR
+npm install -g balm-core balm-cli
+```
+
+```sh
+# Verify
+balm -V
+
+# Output:
+# balm-cli: 2.0.0
+# balm-core: 3.0.0
+```
+
 ## Installation
 
 ```sh
-npm i -g balm-cli
 balm init legacy my-project
 
 cd my-project
@@ -24,4 +40,4 @@ npm run dev
 npm run prod
 ```
 
-- thx [BalmJS](https://balmjs.com/)
+- thx [BalmJS](https://balm.js.org/)
