@@ -8,15 +8,15 @@
     "prod": "balm -p"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
+    "core-js": "^3.27.0",
     "jquery": ">=1.12 <2",
     "jquery-migrate": "^1.4.1"
   },
   "devDependencies": {
-    "@babel/runtime-corejs3": "^7.10.0",
+    "@babel/runtime-corejs3": "^7.20.0",
     "babel-eslint": "^10.1.0",
     "balm": "^3.0.0",
-    "eslint": "^7.6.0"
+    "eslint": "^8.0.0"
   },
   "private": true
 }
